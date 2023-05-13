@@ -1,0 +1,106 @@
+/* 
+#CrossFade {
+  background: #fff;
+  display: flex;
+  align-items: flex-end;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+#CrossFade img {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  background: #000;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  opacity: 0;
+  transform: scale(1.1) rotate(2deg) skew(30deg, 20px);
+  -webkit-animation: CrossFade 2s;
+          animation: CrossFade 2s;
+          animation-fill-mode: forwards;
+} */
+#CrossFade img:nth-child(3) {
+  /* -webkit-animation-delay: 0s;
+          animation-delay: 0s; */
+}
+/* #CrossFade img:nth-child(2) {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+#CrossFade img:nth-child(1) {
+  -webkit-animation-delay: 5s;
+          animation-delay: 6s;
+} */
+
+
+
+
+
+
+
+/* @-webkit-keyframes CrossFade {
+  from {
+    opacity: 1;
+    transform: scale(1) rotate(0);
+  }
+  to {
+    opacity: 0;
+  }
+} */
+/* @keyframes CrossFade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) rotate(0);
+  }
+}
+
+ */
+
+
+
+
+/* 
+
+$duration = 12
+$slides = 4
+$step = $duration/$slides
+setDelayRevers($duration, $slides)
+  
+  for index in (2..$slides)
+    &:nth-child({index -1}) 
+      animation-delay ($step*index)s
+
+#CrossFade
+  height 100vh
+  overflow hidden
+  position relative
+  
+  display flex
+  img
+    align-self center
+    position absolute
+    
+    min-width 100%
+    min-height 100%
+    height auto
+    
+    backface-visibility hidden
+    opacity 0
+  
+    transform scale(1.4) rotate(12deg)
+    animation CrossFade ($duration)s infinite 
+    setDelayRevers($duration, $slides)   
+@keyframes CrossFade
+  25%
+    opacity 1
+    transform scale(1) rotate(0)
+  40%
+    opacity 0
+    
+*/
+
